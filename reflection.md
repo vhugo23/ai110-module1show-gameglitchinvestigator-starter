@@ -5,8 +5,12 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 1. What was broken when you started?
 
 - What did the game look like the first time you ran it?
+On first look the game looked a normal one just asking my guesses to be lower, but it was odd for sure.
+By the time the game was done and the score came, I saw a big disconect.
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
+  The secret number did not match the instructions that were being given.
+  The game doesn't handle well when we try to play again
 
 **Bug Reproduction Log**
 
@@ -17,7 +21,9 @@ Document at least 3 bugs you found. Add rows as needed.
 | | | | |
 | | | | |
 | | | | |
-
+1 - Guess 17, secret is 16, "Go Lower", Go Higher
+2 - Click "New Game" after a win, Fresh secret, score and status reset, Game stays finished or the old state persists
+3 - Range says 1-100 but secret is outside it, Secret within the displayed range, secret doesn't match the instructions
 ---
 
 ## 2. How did you use AI as a teammate?
