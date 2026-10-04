@@ -18,12 +18,10 @@ Document at least 3 bugs you found. Add rows as needed.
 
 | Input | Expected Behavior | Actual Behavior | Console Output / Error |
 |-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
-1 - Guess 17, secret is 16, "Go Lower", Go Higher
-2 - Click "New Game" after a win, Fresh secret, score and status reset, Game stays finished or the old state persists
-3 - Range says 1-100 but secret is outside it, Secret within the displayed range, secret doesn't match the instructions
+| Guess 17 when the secret is 16 | Hint says "Go Lower" | Hint says "Go Higher" | None |
+| Game ends (win or loss), then try to keep playing | Can start a new round and keep guessing | Game freezes; only a page refresh lets me play again | None |
+| Start a game when the range says 1-100 | Secret number is within the displayed range | Secret doesn't match the range shown in the instructions | None |
+
 ---
 
 ## 2. How did you use AI as a teammate?
