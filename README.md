@@ -58,16 +58,22 @@ Sample losing game (secret was 50):
 2. After the 8th guess, attempts left reaches 0 and the game shows "Game over. Start a new game to try again."
 3. I start a new game and can play again with no refresh needed.
 
-**Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 
 ## 🧪 Test Results
 
-```
-# Paste your pytest output here, e.g.:
-# pytest tests/
-# ========================= X passed in 0.XXs =========================
-```
+============================= test session starts =============================
+platform win32 -- Python 3.14.7, pytest-9.1.1, pluggy-1.6.0
+rootdir: ...
+collected 6 items
 
+tests/test_game_logic.py::test_winning_guess PASSED
+tests/test_game_logic.py::test_guess_too_high PASSED
+tests/test_game_logic.py::test_guess_too_low PASSED
+tests/test_game_logic.py::test_guess_too_high_go_lower PASSED
+tests/test_game_logic.py::test_guess_too_low_go_higher PASSED
+tests/test_game_logic.py::test_guess_exact_match PASSED
+
+============================== 6 passed in 0.0Xs ==============================
 ## 🚀 Stretch Features
 
 - [ ] [If you choose to complete Challenge 4, describe the Enhanced UI changes here — a screenshot is optional]
